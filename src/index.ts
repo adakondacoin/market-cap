@@ -138,6 +138,7 @@ import wrtFetcher from "./tokens/wrt";
 import xrayFetcher from "./tokens/xray";
 import xvyfiFetcher from "./tokens/xvyfi";
 import yummiFetcher from "./tokens/yummi";
+import trumFetcher from "./tokens/trum"; 
 import { SupplyFetcher } from "./types";
 
 export * from "./types";
@@ -382,4 +383,5 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   "548c390391253aff00af9c95ae310f00803fd28035a6ed6f17c1e5e2424147": bagFetcher,
   e4b8e9d247d9aa043bb9e13b38989b11b02c595450e6313aebdf6c1f47616d6553746f70:
     gmeFetcher,
+"fb0da6de717a0a0e2c905d6288a2d61a65253b65ab04cd863a69677361736466617364667364667364": trumFetcher, 
 };
