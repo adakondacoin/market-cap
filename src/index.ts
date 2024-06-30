@@ -155,6 +155,7 @@ import wrtFetcher from "./tokens/wrt";
 import xrayFetcher from "./tokens/xray";
 import xvyfiFetcher from "./tokens/xvyfi";
 import yummiFetcher from "./tokens/yummi";
+import zannaFetcher from "./tokens/zanna"; 
 import { SupplyFetcher } from "./types";
 
 export * from "./types";
@@ -429,4 +430,5 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     girlfrenFetcher,
   c80d335ae2206381ae3dfe07b1ef38e43af95736e7f5d4f150663c255241555349:
     rausiFetcher,
+"4dcb75126cf3f75d41bd7c1d16657bfc5baac06969e7cfba6b8788565265616c5a616e6e61436f696e": zannaFetcher, 
 };
