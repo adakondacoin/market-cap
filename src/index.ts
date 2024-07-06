@@ -158,6 +158,7 @@ import wrtFetcher from "./tokens/wrt";
 import xrayFetcher from "./tokens/xray";
 import xvyfiFetcher from "./tokens/xvyfi";
 import yummiFetcher from "./tokens/yummi";
+import ribbyFetcher from "./tokens/ribby"; 
 import { SupplyFetcher } from "./types";
 
 export * from "./types";
@@ -438,4 +439,5 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     rausiFetcher,
   a1ce0414d79b040f986f3bcd187a7563fd26662390dece6b12262b52464c45534820544f4b454e:
     fleshFetcher,
+"e1458b10a6ecd9185cf21b1c6e392fce6f61ad94b37f304a4a3935f552696262794f6e416461": ribbyFetcher, 
 };
